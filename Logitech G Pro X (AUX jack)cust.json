@@ -1,0 +1,24 @@
+{
+  "output": {
+    "blocklist": [],
+    "equalizer#0": {
+      "input-gain": 0.0,
+      "output-gain": 0.0,
+      "mode": "IIR",
+      "num-bands": 10,
+      "bands": [
+        { "type": "Peaking", "frequency": 47.0, "gain": 6.0, "q": 3.26 },
+        { "type": "Peaking", "frequency": 105.0, "gain": 3.7, "q": 0.7 },
+        { "type": "Peaking", "frequency": 198.0, "gain": -14.4, "q": 0.59 },
+        { "type": "Peaking", "frequency": 329.0, "gain": 11.6, "q": 0.51 },
+        { "type": "Peaking", "frequency": 1533.0, "gain": -0.9, "q": 4.36 },
+        { "type": "Peaking", "frequency": 2340.0, "gain": -10.7, "q": 0.8 },
+        { "type": "Peaking", "frequency": 3744.0, "gain": 11.3, "q": 0.84 },
+        { "type": "Peaking", "frequency": 5365.0, "gain": 1.8, "q": 4.98 },
+        { "type": "Peaking", "frequency": 6947.0, "gain": -2.6, "q": 2.46 },
+        { "type": "Peaking", "frequency": 10000.0, "gain": 6.0, "q": 0.7 }
+      ]
+    },
+    "plugins_order": ["equalizer#0"]
+  }
+}
